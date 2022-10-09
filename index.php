@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 
-<body class="bgimg">
+<body>
 
-    <h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
+    
     
     <?php
        include "navbar.php";
     ?>
-
+<h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
     <p class="border bg-white">
         เว็บไซต์นี้จัดทำขึ้นเพื่อใช้ประกอบกการเรียนการสอน
         วิชาอินเตอร์เน็ตและการสร้างเว็บไซต์ โรงเรียนฝึกอาชีพ
