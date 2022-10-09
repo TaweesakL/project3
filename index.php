@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าหลัก</title>
-    <link rel="stylesheet" href="./script/style.css" />
+
 </head>
 
 <body>
 
-    
-    
+
+
     <?php
        include "navbar.php";
     ?>
-<h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
-    <p class="border bg-white">
-        เว็บไซต์นี้จัดทำขึ้นเพื่อใช้ประกอบกการเรียนการสอน
-        วิชาอินเตอร์เน็ตและการสร้างเว็บไซต์ โรงเรียนฝึกอาชีพ
-        กรุงเทพมหานคร (ดินแดง1)
-    </p>
+    <div class="container-fluid">
 
-    <?php
-      include "hello.php";
-    ?>
+
+        <h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
+        <p class="border bg-white">
+            เว็บไซต์นี้จัดทำขึ้นเพื่อใช้ประกอบกการเรียนการสอน
+            วิชาอินเตอร์เน็ตและการสร้างเว็บไซต์ โรงเรียนฝึกอาชีพ
+            กรุงเทพมหานคร (ดินแดง1)
+        </p>
+    </div>
 
 </body>
 
