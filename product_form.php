@@ -10,21 +10,65 @@
 </head>
 
 <body>
-<?php
+    <?php
        include "navbar.php";
     ?>
-    <div class="container-fluid">
-    <h1>เพิ่มสินค้า</h1>
-    <form action="product_insert.php" method="post" enctype="multipart/form-data"><br />
-        ชื่อสินค้า <input type="text" name="title" /><br />
-        ราคา <input type="text" name="price" /> <br />
-        จำนวนในคลัง <input type="text" name="stock" /> <br />
-        ประเภทสินค้า <input type="text" name="cat_name" /> <br />
-        รายละเอียด <textarea rows=" 5" cols="50" name="description"> </textarea><br />
-        แทรกรูป <input type="file" name="img" /> <br />
-        <input type="submit" value="บันทึก" /><br />
-    </form>
-</div>
+    <div class="container col-md-6">
+        <h1 class="text-center">เพิ่มสินค้า</h1>
+        <form action="product_insert.php" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-2">
+                    ชื่อสินค้า
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="title" class="form-control" />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    ราคา
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="price" class="form-control" />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    จำนวนในคลัง
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="stock" class="form-control" />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    ประเภทสินค้า
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="cat_name" class="form-control" />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    รายละเอียด
+                </div>
+                <div class="col-md-10">
+                    <textarea rows=" 5" cols="50" name="description" class="form-control"> </textarea>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    แทรกรูป
+                </div>
+                <div class="col-md-10">
+                    <input type="file" name="img" class="form-control" />
+                </div>
+            </div>
+            <div class="d-grid pt-3">
+                <input type="submit" value="บันทึก" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>

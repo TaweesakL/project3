@@ -13,13 +13,28 @@
     <?php
       include "navbar.php";
     ?>
-<div class="container-fluid">
-    <form action="cat_insert.php" method="post" enctype="multipart/form-data">
-        ประเภทสินค้า <input type="text" name="cat_name" /> <br />
-        แทรกรูป <input type="file" name="photo" /> <br />
-        <input type="submit" value="บันทึกข้อมูล" />
-    </form>
-</div>
+    <div class="container col-md-6">
+        <form action="cat_insert.php" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-2">
+                    ประเภทสินค้า
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="cat_name" class="form-control" />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-2">
+                    แทรกรูป
+                </div>
+                <div class="col-md-10">
+                    <input type="file" name="photo" class="form-control" />
+                </div>
+                <div class="d-grid pt-3">
+                <input type="submit" value="บันทึกข้อมูล" class="btn btn-success"  />
+                </div>
+        </form>
+    </div>
 
 </body>
 
